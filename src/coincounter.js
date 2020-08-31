@@ -16,21 +16,53 @@ const pennies = .01;
 
 input = 4.99
 
-function  temp(input){
+function  coinCounter(input){
   if(input >= .25){
-    return temp(input % .25) + "Quarters: " + ((input/.25) - ((input % .25) / .25))
+    return coinCounter(input % .25) + "Quarters: " + ((input/.25) - ((input % .25) / .25))
   } else if (input >= .10){
-    return temp(input % .10) + "Dimes: " + ((input/.10) - ((input % .10) / .10)) + ", "
+    return coinCounter(input % .10) + "Dimes: " + ((input/.10) - ((input % .10) / .10)) + ", "
   } else if (input >= .5){
-    return temp(input % .5) + "Nickles: " + ((input/.5) - ((input % .5) / .05)) + ", "
+    return coinCounter(input % .5) + "Nickles: " + ((input/.5) - ((input % .5) / .05)) + ", "
   } else if (input > 0){
     return "Pennies: " + Math.round((input * 100)) + ", "
   }
 }
+
+"Pennies: 4, Dimes: 2, Quarters: 19"
+
+const recurseReverse = (string) => {
+  if (string === "") {
+    return "";
+  } else {
+    return recurseReverse(string.substring(1)) + string[0];
+  }
+}
+
+recurseReverse() {
+  return "";
+  recurseReverse() {
+    return "n";
+    recurseReverse() {
+      return "r";
+      recurseReverse() {
+        return "e";
+        recurseReverse() {
+          return "f";
+        }
+      }
+    }
+  }
+}
+
+"" + "n" + "r" + "e" + "f"
+
+
 // first time through the loop:
 // temp() + "Quarters: 19"
+
 // second time through:
 // temp() + "Dimes: 2, Quarters: 19"
+
 // thrid time through:
 // "Pennies: 4, Dimes: 2, Quarters: 19"
 
