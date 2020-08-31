@@ -18,7 +18,6 @@ This application will take in a change amount of change needed in quarters, dime
 * Open the project up in Visual Code Studio.
 * In your terminal run ```npm install```.
 * To build the project run ```npm run build```.
-* In Visual Studio Code run ```npm install dotenv --save-dev```.
 * To start the applicationtype In Visual Studio Code terminal ```npm run start```.
 
 ## Specs

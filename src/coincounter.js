@@ -1,22 +1,4 @@
-const change = [quarter, dimes, nickels, pennies];
-
-const quarter = .25;
-
-const dimes = .10;
-
-const nickels = .05;
-
-const pennies = .01;
-
-// number = 4.99
-// quarters = 19
-// dimes = 2
-// nickels = 0
-// pennies = 4
-
-input = 4.99
-
-function  coinCounter(input){ 
+export function  coinCounter(input){ 
   if (isNaN(input)) {
     return;
   }
@@ -25,57 +7,15 @@ function  coinCounter(input){
     return coinCounter(input % .25) + "Quarters: " + Math.floor(input/.25)
   }
 
-  if(input >= 0 && input < .05){
-    return "Pennies: " + Math.round((input * 100)) + ", "
+  if(input >= .10 && input < .25){
+    return coinCounter(input % .10) + "Dimes: " + Math.floor(input/.10) + ", "
   }
 
   if(input >= .5 && input <.10){
     return coinCounter(input % .5) + "Nickles: " + Math.floor(input/.5) + ", "
   }
 
-  if(input >= .10 && input < .25){
-    return coinCounter(input % .10) + "Dimes: " + Math.floor(input/.10) + ", "
-  }
-}
-
-output.quarters = 
-
-"Pennies: 4, Dimes: 2, Quarters: 19"
-
-const recurseReverse = (string) => {
-  if (string === "") {
-    return "";
-  } else {
-    return recurseReverse(string.substring(1)) + string[0];
-  }
-}
-
-
-// first time through the loop:
-// temp() + "Quarters: 19"
-
-// second time through:
-// temp() + "Dimes: 2, Quarters: 19"
-
-// thrid time through:
-// "Pennies: 4, Dimes: 2, Quarters: 19"
-
-
-
-499 % 25 = 24   (19)
-24 % 10 = 4    (2)
-4 % 5 = 4     (0)
-4 % 1 = 0     (4)
-
-// counts user entered amount down to 0
-function coinCounter(number){
-  if(number >= .25){
-    return coinCounter(number - .25)
-  } else if (number >= .10){
-    return coinCounter(number - .10)
-  } else if (number >= .05){
-    return coinCounter(number - .05)
-  } else if (number > 0){
-    return coinCounter(number - .01)
+  if(input >= 0 && input < .05){
+    return "Pennies: " + Math.round((input * 100)) + ", "
   }
 }
