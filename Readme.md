@@ -4,8 +4,8 @@
 
 #### _This application will take in a change amount of change needed in quarters, dimes, nickels and pennies., 2020 ver 1.1.0_
 
-#### By _Ian Gregg & _
-[]()
+#### By _Ian Gregg & James Henager & Tyson Lackey_
+[coin-counter](https://github.com/oldgregg89/CoinCounter-)
 
 ## Description
 
@@ -33,7 +33,11 @@ This application will take in a change amount of change needed in quarters, dime
 
 ## Support and contact details
 
-_Contact Ian Gregg: <iangregg188@gmail.com>_
+_Contact Ian Gregg: <iangregg188@gmail.com>
+or
+James Henager <jameschenager@gmail.com> 
+or
+Tyson Lackey <lackeyt90@gmail.com>_
 
 ## Technologies Used
 
@@ -41,7 +45,7 @@ _The Technologies used in the making of this software was Chrome browser, Visual
 
 ### License
 
-Copyright (c) 2020 **_Ian Gregg_**
+Copyright (c) 2020 **_Ian Gregg & James Henager & Tyson Lackey_**
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
