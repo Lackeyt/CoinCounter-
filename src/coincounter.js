@@ -16,17 +16,29 @@ const pennies = .01;
 
 input = 4.99
 
-function  coinCounter(input){
+function  coinCounter(input){ 
+  if (isNaN(input)) {
+    return;
+  }
+
   if(input >= .25){
-    return coinCounter(input % .25) + "Quarters: " + ((input/.25) - ((input % .25) / .25))
-  } else if (input >= .10){
-    return coinCounter(input % .10) + "Dimes: " + ((input/.10) - ((input % .10) / .10)) + ", "
-  } else if (input >= .5){
-    return coinCounter(input % .5) + "Nickles: " + ((input/.5) - ((input % .5) / .05)) + ", "
-  } else if (input > 0){
+    return coinCounter(input % .25) + "Quarters: " + Math.floor(input/.25)
+  }
+
+  if(input >= 0 && input < .05){
     return "Pennies: " + Math.round((input * 100)) + ", "
   }
+
+  if(input >= .5 && input <.10){
+    return coinCounter(input % .5) + "Nickles: " + Math.floor(input/.5) + ", "
+  }
+
+  if(input >= .10 && input < .25){
+    return coinCounter(input % .10) + "Dimes: " + Math.floor(input/.10) + ", "
+  }
 }
+
+output.quarters = 
 
 "Pennies: 4, Dimes: 2, Quarters: 19"
 
@@ -37,24 +49,6 @@ const recurseReverse = (string) => {
     return recurseReverse(string.substring(1)) + string[0];
   }
 }
-
-recurseReverse() {
-  return "";
-  recurseReverse() {
-    return "n";
-    recurseReverse() {
-      return "r";
-      recurseReverse() {
-        return "e";
-        recurseReverse() {
-          return "f";
-        }
-      }
-    }
-  }
-}
-
-"" + "n" + "r" + "e" + "f"
 
 
 // first time through the loop:
