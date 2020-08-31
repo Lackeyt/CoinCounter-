@@ -32,8 +32,7 @@ This application will take in a change amount of change needed in quarters, dime
 
 ## Known Bugs
 
-* Buttons were not working to find the correct currecny exchange (fixed)
-* Errors catches were not present in the main.js (fixed)
+* No known bugs
 
 ## Support and contact details
 
