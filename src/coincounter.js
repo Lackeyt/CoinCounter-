@@ -1,4 +1,4 @@
-export function  coinCounter(input){ 
+export function coinCounter(input){ 
   if (isNaN(input)) {
     return;
   }
