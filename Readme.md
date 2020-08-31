@@ -9,7 +9,7 @@
 
 ## Description
 
-This application will take in currency number in (USD) and convert it inot change needed in quarters, dimes, nickels and pennies.
+This application will take in currency number in (USD) and convert it into change needed in quarters, dimes, nickels and pennies.
 
 ## Setup/Installation Requirements
 
