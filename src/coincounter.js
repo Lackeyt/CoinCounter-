@@ -25,6 +25,7 @@ export function coinCounter(input){     //input = 4.99
 //Closure
 function coinCount(coin){
   return function(amount){
+    if()
     return Math.floor(amount/coin)
   }
 }

@@ -2,7 +2,7 @@
 
 ![coin-counter](https://media.giphy.com/media/QaPkV29BJh3gI/giphy.gif)
 
-#### _This application will take in currency number in (USD) and convert it inot change needed in quarters, dimes, nickels and pennies., 2020 ver 1.1.0_
+#### _This application will take in currency number in (USD) and convert it into change needed in quarters, dimes, nickels and pennies., 2020 ver 1.1.0_
 
 #### By _Ian Gregg & James Henager & Tyson Lackey_
 [coin-counter](https://github.com/oldgregg89/CoinCounter-)
