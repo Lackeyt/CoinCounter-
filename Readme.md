@@ -35,11 +35,9 @@ This application will take in currency number in (USD) and convert it into chang
 
 ## Support and contact details
 
-_Contact Ian Gregg: <iangregg188@gmail.com>
-or
-James Henager <jameschenager@gmail.com> 
-or
-Tyson Lackey <lackeyt90@gmail.com>_
+* Contact Ian Gregg: <iangregg188@gmail.com>
+* James Henager <jameschenager@gmail.com> 
+* Tyson Lackey <lackeyt90@gmail.com>
 
 ## Technologies Used
 

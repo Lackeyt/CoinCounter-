@@ -21,9 +21,6 @@ export function coinCounter(input){
   }
 }
 
-// ["Pennies: 4", "Dimes: 2", "Quarters: 19"]
-
-
 //Closure
 function coinCount(coin){
   return function(amount){
