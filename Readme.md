@@ -25,6 +25,10 @@ This application will take in a change amount of change needed in quarters, dime
 
 | Behavior    | Input | Output |
 | :-----------| ------| ------: |
+| Quarters | .25 | .25|
+| Dimes | .10 | .10 |
+| nickels | .05 | .05 |
+| pennies | .01 | .01 |
 
 ## Known Bugs
 

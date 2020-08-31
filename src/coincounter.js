@@ -13,11 +13,11 @@ const pennies = .01;
 function coinCounter(number){
   if(number >= .25){
     return coinCounter(number - .25)
-  } else if (number >= .10) {
+  } else if (number >= .10){
     return coinCounter(number - .10)
-  } else if (number >= .05) {
+  } else if (number >= .05){
     return coinCounter(number - .05)
-  } else if (number > 0) {
+  } else if (number > 0){
     return coinCounter(number - .01)
   }
 }
